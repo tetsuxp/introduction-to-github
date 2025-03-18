@@ -33,7 +33,8 @@ jobs:
 
   on_merge_your_pull_request:
     name: On merge your pull request
-    needs: get_current_step
+    needs: get_current_stop
+    
 
     # We will only run this action when:
     # 1. This repository isn't the template repository.
